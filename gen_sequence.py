@@ -1,6 +1,5 @@
 import random
 import copy
-import collections
 
 data = {
       "guapea position": ["guapea", "enshuffla", "vacila", "vacila-enshuffla" , "vacilala", "panké", "prima", "sombrero", "montana", "denodo"]
