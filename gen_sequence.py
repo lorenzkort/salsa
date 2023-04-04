@@ -65,8 +65,9 @@ def gen_longest_unique_path(start_pos="guapea", start_length=30, iterations=6000
     for _ in range(iterations):
         seq = gen_sequence(start_length, start_pos)
         sequences[len(set(seq))] = seq
-    sequences = collections.OrderedDict(sorted(sequences.items()))
-    return sequences
+    max_key = max(list(sequences.keys()))
+    longest_sequence = sequences[max_key]
+    return longest_sequence
 
 lp = gen_longest_unique_path()
-for k, v in lp.items(): print(k, v)
+print(lp)
