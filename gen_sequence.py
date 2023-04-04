@@ -49,7 +49,7 @@ def gen_sequence(length, start_pos="guapea"):
     if not start_pos:
         start_pos = random.choice(list(data.keys()))
     last_move = start_pos
-    sequence = [last_move]
+    sequence = []
     while iterator <= length:
         if not is_silent_move(last_move):
             sequence.append(last_move)
