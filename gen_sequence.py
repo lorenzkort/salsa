@@ -2,8 +2,8 @@ import random
 import copy
 
 data = {
-      "guapea position": ["guapea", "enshuffla (regular)", "vacila", "vacila-enshuffla" , "vacilala", "panké", "prima (regular)", "prima con hermana", "sombrero", "montana", "denodo"]
-    , "guapea": ["enshuffla (regular)", "vacila", "vacila-enshuffla" , "vacilala", "panké", "prima (regular)", "sombrero", "montana", "denodo"]
+      "guapea position": ["guapea", "enshuffla (regular)", "vacila" , "vacilala", "panké", "prima (regular)", "prima con hermana", "sombrero", "montana", "denodo"]
+    , "guapea": ["enshuffla (regular)", "vacila", "vacilala", "panké", "prima (regular)", "sombrero", "montana", "denodo"]
     , "dile que non": ["guapea position"]
     , "dile que non position": ["dile que non", "penala", "rodeo", "rodeolala", "sacala", "paseo poratraz"]
     , "dile que si": ["dile que non"]
@@ -14,7 +14,6 @@ data = {
     , "panké": ["guapea position"]
     , "denodo": ["dile que non position right handed"]
     , "prima (regular)": ["guapea position"]
-    , "vacila-enshuffla": ["dile que non position"]
     , "rodeolala": ["dile que non position"]
     , "rodeo": ["dile que non position"]
     , "sombrero": ["dile que non"]
